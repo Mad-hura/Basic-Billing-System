@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+th {
+    background-color:indianred;
+}
+input[type="number"] {
+    width: 60px;
+}
+
+table.generated-bill {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+table.generated-bill th {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: indianred;
+}
+table.generated-bill td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color:bisque;
+   ;
+}

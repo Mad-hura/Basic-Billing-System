@@ -1,0 +1,88 @@
+<html>
+      <head>
+        <style>
+            h3 {
+                display: block;
+                padding: 4px;
+                background-color: indianred;
+
+            }
+            footer {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-color:indianred;
+    }
+
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+    }
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+}
+        </style>
+        <title>login-bill</title>
+        <meta name="description"
+        content="login-bill">
+        <script language ="JavaScript">
+            <!-- 
+        var oper=new Array();
+
+        function op(u,p){
+            this.u=u;
+            this.p=p;
+        }
+        (function operator(){
+            oper[0]=new op("user1","pass1");
+            oper[1]=new op("user2","pass2");
+            oper[2]=new op("user3","pass3");
+            oper[3]=new op("user4","pass4");
+            oper[4]=new op("user5","pass5");
+        })();
+           
+        function validate(username,password){
+            for(var i=0;i< 5;i++)
+            {   
+                if (username == oper[i].u && password == oper[i].p) {
+                    location.href = "billentry.html"
+                }
+               
+            }  
+           
+        }
+            //-->
+        
+    </script>
+      </head>
+      <body style="background-color: aliceblue;">
+        <h1 align = "center">Welcome to Acme Grocers Billing system</h1>
+        <h3 align ="center" ><b> Please Login</b></h3>
+        <br>
+        <br>
+        <form  align="center">
+            USERNAME:
+            <input type="text" name="username" id="username" style="background-color:tan;" required>
+            <br>
+            <br>
+            PASSWORD:
+            <input type="password" name="password"  id="password" style="background-color:tan;" required>
+            <br>
+            <br>
+            <input type="button" name="btn1" id="btn1" value="LOGIN" style="background-color:lightsteelblue;"
+            onclick="validate(document.getElementById('username').value,document.getElementById('password').value)" >
+        </form>
+        <footer>
+            <p class="copyright"><b>&copy; Made by Madhura M Lambe,Lumen </b></p>
+        </footer>
+    
+    
+      </body>   
+</html>
